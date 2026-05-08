@@ -36,26 +36,26 @@ class Carga extends Phaser.Scene {
         });
 
         // Assets del juego
-        this.load.image("fondo", "assets/Fondo.png");
-        this.load.image("skin1", "assets/Gochizo_Sprite.png");
-        this.load.image("skin2", "assets/Zeztz.png");
-        this.load.image("skin3", "assets/Decade.png");
-        this.load.image("rider", "assets/Moto.png");
-        this.load.image("belt", "assets/Belt.png");
-        this.load.image("spike", "assets/Spike.png");
-        this.load.image("suelo", "assets/platform.png");
-        this.load.image("estela", "assets/particulafuego.png");
+        this.load.image("fondo", "Fondo.png");
+        this.load.image("skin1", "Gochizo_Sprite.png");
+        this.load.image("skin2", "Zeztz.png");
+        this.load.image("skin3", "Decade.png");
+        this.load.image("rider", "Moto.png");
+        this.load.image("belt", "Belt.png");
+        this.load.image("spike", "Spike.png");
+        this.load.image("suelo", "platform.png");
+        this.load.image("estela", "particulafuego.png");
 
-        this.load.image("fondo_inicio", "assets/fondo_inicio.png");
+        this.load.image("fondo_inicio", "fondo_inicio.png");
         
-        this.load.audio("click1", "assets/Audio1.mp3");
-        this.load.audio("click2", "assets/Audio2.mp3");
-        this.load.audio("click3", "assets/Audio3.mp3");
-        this.load.audio("musica", "assets/EATME.mp3");
+        this.load.audio("click1", "Audio1.mp3");
+        this.load.audio("click2", "Audio2.mp3");
+        this.load.audio("click3", "Audio3.mp3");
+        this.load.audio("musica", "EATME.mp3");
 
         // Simular carga
         for(let i = 0; i < 30; i++){
-            this.load.image("fake" + i, "assets/Gochizo_Sprite.png");
+            this.load.image("fake" + i, "Gochizo_Sprite.png");
         }
         // Nos ayuda a que la barra no carga instantaneamente
         // Nos da mas tiempo de mostrar animaciones/logo
