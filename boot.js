@@ -6,7 +6,7 @@ class Boot extends Phaser.Scene {
 
     preload(){
         // Solo cargamos el logo
-        this.load.image("logo", "assets/logo.png");
+        this.load.image("logo", "logo.png");
     }
 
     create(){
